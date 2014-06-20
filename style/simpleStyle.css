@@ -1,13 +1,18 @@
 
 
 div.main{
-
+	position:relative;
 	margin: 15px auto 15px auto;
-	width: 85%;
+	width: calc(100%-400);
+	left:200px;
 	min-width: 1000px;
 	background-color: white;
 	}
-	
+#mainDiv{	
+	width: calc(100%-400);
+	left:200px;
+	min-width: 1000px;
+}
 header>img{
 		
 	height:200px;
